@@ -1,2 +1,2 @@
-# webPackOdinProject
-Assignment dado pelo odin project, a fim de testar nosso conhecimentos na area de webPack
+# RestaurantPage
+projeto do odin project, para a criacao de uma pagina de restaurante
