@@ -4,6 +4,7 @@ import createNav from "./navBar"
 
 const createHome = ()=>{
     //criacao da pagina home
+    content.textContent= ''
     createNav();
     const home = document.createElement('div')
     home.classList.add('home-div')

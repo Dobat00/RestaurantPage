@@ -2,6 +2,6 @@ import createHome from "./home";
 import createNav from "./navBar";
 
 const firstLoad= () =>{
-    createHome()
+        createHome()
 }
 export default firstLoad;

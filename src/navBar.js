@@ -17,9 +17,22 @@ const createNav = () =>{
     home.classList.add('home')
     const menu = document.createElement('button')
     menu.classList.add('menu')
-    const contact = document.createElement('a')
+    const contact = document.createElement('button')
     contact.classList.add('contact')
     
+    //adicionando os eventos aos botoes
+    home.addEventListener('click', ()=>{
+        createHome()
+    })
+
+    contact.addEventListener('click', ()=>{
+        createHome()
+    })
+
+    menu.addEventListener('click', ()=>{
+        createMenu()
+    })
+
     menu.textContent = 'Menu'
     menu.href = ''
     contact.textContent = 'Contact me'
