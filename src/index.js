@@ -17,5 +17,6 @@ home.addEventListener('click', (e)=>{
 let menu = document.querySelector('.menu')
 menu.addEventListener('click', (e)=>{
     createMenu();
+    menu.click();
 })
 

@@ -13,9 +13,9 @@ const createNav = () =>{
     logo.classList.add('logo')
     logo.textContent = 'restaurante X'
     
-    const home = document.createElement('a')
+    const home = document.createElement('button')
     home.classList.add('home')
-    const menu = document.createElement('a')
+    const menu = document.createElement('button')
     menu.classList.add('menu')
     const contact = document.createElement('a')
     contact.classList.add('contact')
