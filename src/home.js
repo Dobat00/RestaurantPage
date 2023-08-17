@@ -20,7 +20,7 @@ const homePage = () =>{
     let div = document.createElement('div')
     div.classList.add('home-conteudo')
     const texto  = document.createElement('h1')
-    texto.textContent = 'RESTAURANTE asdasd MERDA DO MUNDO'
+    texto.textContent = 'RESTAURANTE generico'
 
     div.appendChild(texto)
     return div

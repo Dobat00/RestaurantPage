@@ -8,7 +8,7 @@ const createMenu = () =>{
     div.classList.add('menu')
     
     let menu = document.createElement('h2')
-    menu.textContent = 'bolinho de ovo 10 real'
+    menu.textContent = 'prato generico 10 real'
 
     div.appendChild(menu)
     content.appendChild(div)
