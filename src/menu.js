@@ -1,7 +1,9 @@
 const content = document.getElementById('content')
+import createNav from "./navBar";
 
 const createMenu = () =>{
     content.textContent = '';
+    createNav();
     let div = document.createElement('div')
     div.classList.add('menu')
     

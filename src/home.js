@@ -1,11 +1,12 @@
 const content = document.getElementById('content')
+import createNav from "./navBar"
 
 
 const createHome = ()=>{
     //criacao da pagina home
+    createNav();
     const home = document.createElement('div')
     home.classList.add('home-div')
-    
     //criacao da nav e os conteudos da pagina junto com o append ao home
     let conteudo = homePage();
     home.appendChild(conteudo)

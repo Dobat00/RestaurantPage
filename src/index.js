@@ -10,13 +10,13 @@ firstLoad();
 
 let home = document.querySelector('.home')
 home.addEventListener('click', (e)=>{
-    console.log(content.children[1])
-    content.children[1].remove()
+    // createNav()
+    createHome();
 })
 
 let menu = document.querySelector('.menu')
 menu.addEventListener('click', (e)=>{
+    // createNav();
     createMenu();
-    menu.click();
 })
 
