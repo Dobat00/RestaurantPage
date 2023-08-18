@@ -1,5 +1,6 @@
 import createMenu from "./menu.js"
 import createHome from "./home.js"
+import createContact from "./contact.js"
 
 
 const content = document.getElementById('content')
@@ -26,7 +27,7 @@ const createNav = () =>{
     })
 
     contact.addEventListener('click', ()=>{
-        createHome()
+        createContact()
     })
 
     menu.addEventListener('click', ()=>{
@@ -35,7 +36,7 @@ const createNav = () =>{
 
     menu.textContent = 'Menu'
     menu.href = ''
-    contact.textContent = 'Contact me'
+    contact.textContent = 'About'
     contact.href = ''
     home.textContent = 'Home'
     home.href= ''
