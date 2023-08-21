@@ -5,14 +5,13 @@ import createContact from "./contact.js"
 
 const content = document.getElementById('content')
 
-
 const createNav = () =>{
     let div = document.createElement('div')
     div.classList.add('navBar')
     
-    const logo = document.createElement('h1')
+    const logo = document.createElement('img')
     logo.classList.add('logo')
-    logo.textContent = 'restaurante X'
+    logo.src = "https://img.freepik.com/free-icon/gummy_318-386410.jpg?w=2000"
     
     const home = document.createElement('button')
     home.classList.add('home')
@@ -21,7 +20,7 @@ const createNav = () =>{
     const contact = document.createElement('button')
     contact.classList.add('contact')
     
-    //adicionando os eventos aos botoes
+    // adicionando os eventos aos botoes
     home.addEventListener('click', ()=>{
         createHome()
     })

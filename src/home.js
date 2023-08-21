@@ -18,12 +18,13 @@ const createHome = ()=>{
 
 
 const homePage = () =>{
+    let img = document.createElement('img');
+    img.src = "https://static.vecteezy.com/system/resources/previews/024/096/399/original/hamburger-kawaii-fast-food-free-png.png"
+    img.classList.add('bacana-emote')
     let div = document.createElement('div')
-    div.classList.add('home-conteudo')
-    const texto  = document.createElement('h1')
-    texto.textContent = 'RESTAURANTE generico'
+    div.classList.add('bacana-img')
 
-    div.appendChild(texto)
+    div.appendChild(img)
     return div
 }
 
