@@ -1,38 +1,54 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #C70039;
+    background-color: #78C1F3;
     margin: 0%;
 }
 
 .navBar{
-    background-color: #333;
+    background-color: #9BE8D8;
     overflow: hidden;
 }
 
 .navBar button{
     float:left;
-    color:#ddd;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     border: none;
-    background-color: #333;
+    background-color: #9BE8D8;
 }
 
 .navBar button:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #F4D160;
+    color: #9BE8D8;
 }
 
 .bacana-emote{
     max-width: 30%;
     position:absolute;
-    top:30%;
+    top:10%;
     left:0;
     right:0;
     bottom:0;
     margin:auto;
+}
+
+.item-name{
+    float:left;
+    padding: 20px;
+}
+
+.img-menu{
+    max-width: 10%;
+    padding: 20px;
+    float:left;
+}
+.div-contact{
+    text-align: center;
+    font-style: normal;
+    font-size: large;
 }
 
 .logo{
